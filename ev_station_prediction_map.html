@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <meta
+      name="viewport"
+      content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <script>
+      L_NO_TOUCH = false;
+      L_DISABLE_3D = false;
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+  </head>
+  <body>
+    <body>
+  <header>
+    <h1> <i class="fa-solid fa-bolt"></i> EV<span style="color:white;">ision</span></h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#dashboard">Dashboard</a>
+      <a href="#gallery">Source</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Drive the Future </h2> 
+    <h1>EV Charging Forecasting & Location Planner <i class="fa-solid fa-charging-station" style="color: white; font-size: 3rem;"></i></h1>
+    <!-- <p class="title-cap">Capstone Project of Tirth Dhandhukia & Yash Joshi</p> -->
+  </section>
+
+  <section class="aboutSection" id="about">
+    <h3 class="section-title">Established chargers</h3>
+   <section class="map">
+    <div class="folium-map" id="map_602d2ae9106385cef775bb7c39ffe6df"></div>
+    </section>
+  </section>
+
+  <!-- <section id="dashboard">
+    <h3 class="section-title">Dashboard</h3>
+    
+  </section>
+
+  <section id="gallery">
+    <h3 class="section-title">Gallery</h3>
+
+  </section> -->
+
+  <section id="contact">
+    <h3 class="section-title">Contact Us</h3>
+    <div class="contact">
+    </div>
+  </section>
+
+  <footer>
+    &copy; Made with ❤️ ~ Tirth Dhandhukia
+  </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
