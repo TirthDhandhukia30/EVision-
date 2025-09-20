@@ -14,7 +14,7 @@ Currently focused on the **Mumbai region**, the system can easily scale to other
   Suggests strategic sites for setting up new charging stations based on forecasted demand and regional factors.
 
 - **Web-Based Dashboard**  
-  A clean, interactive frontend built with **HTML, CSS, and JavaScript** for showcasing predictions, charts, and maps.
+  A clean, interactive frontend built with **HTML, CSS, and JavaScript** for showcasing predictions and maps.
 
 - **Scalable Design**  
   The pipeline and architecture can quickly adapt to additional regions when more data is provided.
@@ -26,9 +26,9 @@ Currently focused on the **Mumbai region**, the system can easily scale to other
 | Layer            | Technologies / Tools                          |
 |------------------|-----------------------------------------------|
 | **Frontend**     | HTML, CSS, JavaScript                          |
-| **Backend / ML** | Python, scikit-learn, pandas, NumPy (update with actual libraries) |
-| **Data**         | Public EV infrastructure datasets, traffic & demographic data (Mumbai) |
-| **Deployment**   | Static web hosting or local server (specify if hosted) |
+| **ML**           | Python, scikit-learn, pandas, NumPy (update with actual libraries) |
+| **Data**         | Government official data, Public EV infrastructure datasets, traffic & demographic data (Mumbai) |
+| **Deployment**   | Netlify |
 
 ---
 
