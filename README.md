@@ -32,21 +32,6 @@ Currently focused on the **Mumbai region**, the system can easily scale to other
 
 ---
 
-## 📂 Project Structure
-
-```
-EVision/
-├─ data/                # Raw and processed datasets
-├─ models/              # Trained ML models and scripts
-├─ notebooks/           # Jupyter notebooks for experimentation
-├─ scripts/             # Training and prediction scripts
-├─ web/                 # HTML, CSS, and JavaScript files for the dashboard
-└─ README.md
-```
-
-*(Adjust the folder names above to match your actual repository layout.)*
-
----
 
 ## ⚙️ Setup & Usage
 
