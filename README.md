@@ -76,9 +76,9 @@ Currently focused on the **Mumbai region**, the system can easily scale to other
 
 ## 👥 Team & Acknowledgments
 
-- **Team Members**: *Add your names here*  
-- **Mentors / Guides**: *Add mentor names here*  
-- **Data Sources**: Include links to government EV datasets, traffic data APIs, or other public datasets you used.
+- **Team Members**: *Tirth Dhandhukia & Yash Joshi*  
+- **Mentors / Guides**: *TBD*  
+- **Data Sources**: *added to the website.
 
 Special thanks to everyone who provided guidance and resources for this project.
 
